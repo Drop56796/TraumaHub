@@ -124,3 +124,14 @@ local credits = creds:section("QQ",true)
     credits:Button("slience",function()
     setclipboard("3756646428")
 end)
+
+local creds = window:Tab("Floor2 item(by icherryKardess)",'7734068321')
+
+local credits = creds:section("item",true)
+credits:Button("Floor2 candle.lua",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Floor-2-candle-By-icherryKardess-/The-Floor-2-candle-(By-icherryKardess)/Floor2%20candle%20(The%20candle%20by%20icherrykardess).lua"))()
+end)
+
+credits:Button("Floor2 Material Package.lua",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+end)
